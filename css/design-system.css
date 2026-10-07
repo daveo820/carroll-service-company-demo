@@ -1,0 +1,35 @@
+/* Carroll Service Company concept: tokens. Navy from the van lettering and logo, sky and red from the old site's band and nav, brick and concrete from Carroll's own photos. */
+:root{
+  --navy:#143a6b;       /* van lettering: headings, dark bands */
+  --sky:#3b97d6;        /* cooling: fills and dark backgrounds only */
+  --sky-dk:#1b639c;     /* cooling text on light, 6:1 on van */
+  --red:#c8202a;        /* heating and signal: call buttons, focus */
+  --brick:#9a4a35;      /* warm season panels, from the brick in Carroll's photos */
+  --van:#fbfaf7;        /* page, van white */
+  --concrete:#ebe7e0;   /* panels */
+  --asphalt:#23262b;    /* text */
+  --mute:#5b5f66;       /* muted text, 6.4:1 on van */
+  --f-display:"Young Serif",Georgia,serif;
+  --f-body:"Figtree",system-ui,sans-serif;
+  --step-0:1.125rem;    /* 18px */
+  --step-2:1.5rem;--step-3:clamp(1.8rem,3vw,2.4rem);--step-4:clamp(2.1rem,4.2vw,3.3rem);--step-5:clamp(2.5rem,5.4vw,4.4rem);
+  --warm:cubic-bezier(.25,1,.5,1);
+  --wrap:1200px;--gut:clamp(20px,4vw,44px);--r:14px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{overflow-x:clip}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--van);color:var(--asphalt);font:400 var(--step-0)/1.62 var(--f-body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block;height:auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;line-height:1.06;letter-spacing:-.01em;margin:0;color:var(--navy)}
+h1 em,h2 em{font-style:normal;color:var(--red)}
+p{margin:0 0 1em;max-width:66ch}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.kicker{display:flex;align-items:center;gap:10px;margin:0 0 16px;font:700 .8rem/1.3 var(--f-body);letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.k-dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(90deg,var(--sky) 50%,var(--red) 50%);flex:none}
+.kicker--sky{color:var(--sky-dk)}.kicker--red{color:var(--red)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--navy);color:#fff;padding:10px 14px;z-index:99}
+.skip:focus{left:8px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

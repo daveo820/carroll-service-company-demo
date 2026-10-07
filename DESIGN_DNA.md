@@ -1,0 +1,10 @@
+# Design DNA: Carroll Service Company concept
+
+- **Archetype:** the family storefront. A warm, light page that leads with the Carrolls themselves: the van photo of Lee, Brian and Brandon in a white print frame, tilted slightly, with a 1973 dial seal biting the top corner. A cool and warm "temperature strip" sits under the hero as the two main doors (cooling, heating). Not used in any earlier LuminArch demo.
+- **Type:** Young Serif for display (a friendly, slightly old fashioned serif that suits a 1973 Main Street business) and Figtree for body at 18px. Neither was used in an earlier demo.
+- **Color story (from Carroll's own material):** navy `#143a6b` (van lettering and logo), sky `#3b97d6` and sky dk `#1b639c` (old site band, used for cooling), red `#c8202a` (old site nav, used for heating and calls), brick `#9a4a35` (brick in Carroll's photos, used for the heating season), van white `#fbfaf7`, concrete `#ebe7e0`, asphalt `#23262b`.
+- **Signature element:** the dial seal. Curved lettering around a disc, echoing the arc of text on the Carroll logo and a thermostat dial. Used as the hero seal (1973), the review seal (4.8, 25 reviews), the maintenance seal (2 per year) and the footer seal (53 years). Kickers use a half sky, half red dot, cool and warm.
+- **Motion personality:** warm up. Blocks fade in and rise 20px with a soft ease out, and seals turn into place from minus 28 degrees, like a dial being set. Off under prefers-reduced-motion.
+- **Grid breaks:** home, the cool and warm strip straddles the hero edge and the next section; company page, the family photo hangs out of the navy page head into the body.
+- **Footer:** "the office counter". A sky stripe and a red stripe over a navy band, the 53 years seal, "One office. One number." with the phone at display size, and the Main Street address.
+- **Distinct from Triple Crown and Wolf Den:** light and warm vs Triple Crown's diagram led navy and gold panel schedule and Wolf Den's dark magazine cover; rounded pills and seals vs hard edges; serif display with a sans body vs Triple Crown's wide grotesk and Wolf Den's condensed grotesk with serif body.
