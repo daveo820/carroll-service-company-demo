@@ -1,6 +1,6 @@
 # Static page builder for the Carroll Service Company concept. Run: python3 build.py
 import json, os
-BASE = 'https://daveo820.github.io/carroll-service-company-demo/'  # temporary GitHub Pages link; swap for Vercel later
+BASE = 'https://carroll-service-company-demo.vercel.app/'  # Vercel production URL
 TEL, TEL_H = '+19197728546', '(919) 772&#8209;8546'
 EXA = 'https://exa.ai/library/place/vfmcyldjtvy'
 BZ = 'https://www.buildzoom.com/contractor/carroll-service-company-inc'
