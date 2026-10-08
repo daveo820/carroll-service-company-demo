@@ -157,3 +157,8 @@ legend{font-weight:700;color:var(--navy);margin-bottom:12px}
   .sz{min-height:0}.sz b{margin-top:28px}
   .rcard--lead p{font-size:1.12rem}
 }
+/* device QA: company page columns shrink to the screen on phones; contact phone is a 44px tap target */
+.co>*{min-width:0}
+.co img{max-width:100%;height:auto}
+.phone{display:flex;width:fit-content;align-items:center;min-height:44px}
+@media (min-width:961px) and (max-width:1240px){.seal--hero{right:-14px}}
